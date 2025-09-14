@@ -1,0 +1,42 @@
+*{
+    font-family: roboto ;
+
+    /* for debugging */
+    border: 1px red solid;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding:0%
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.header-logo{ 
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
