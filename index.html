@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NapBook</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/Favicon.png"> 
+    <link rel="stylesheet" href="style.css">
+     
 </head>
 
 <body>
     <nav class="Header">
         <div class="header-logo">
-            <img src="" alt="Na pbook logo">
+            <img src="./images/Favicon.png" alt="Napbook logo" width="70px">
+            <h1>NapBook</h1>
         </div>
-        
+
         <ul class="header-links">
             <li> <a href="#">Header Link One</a></li>
             <li> <a href="#">Header Link Two</a></li>
@@ -22,54 +25,57 @@
     </nav>
 
     <section class="Hero">
-        <div>
-            <h1>This is Awesome Website</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur reiciendis amet eum eveniet veritatis ut repellat repudiandae, deserunt accusamus odio ducimus modi, non, ullam quam sunt. Saepe voluptatem quibusdam autem.</p>
+        <div class="HeroInfo">
+            <h1>Catch Your Dreams Before They Fade</h1>
+            <p>NapBook is your cozy online dream journal — a safe space to capture, explore, and rediscover the hidden stories your mind writes each night.</p>
             <button>Sign Up</button>
         </div>
-        <div id="HeroImage"></div>
+
+        <div id="HeroImage">
+            <img src="images/Hero Image.png" alt="Sleeping Girl" width="500px">
+        </div>
     </section>
 
     <Section class="Info">
         <h1 class="center" id="Info-Heading">Random Information</h1>
 
-        <div class="center">
-            <div id="Dream-Capture">
+        <div class="features">
+            <div class="feature" id="Dream-Capture">
                 <div class="info-box ">
                     <img src="" alt="Dream Capture">
                 </div>
-                <div class="info-text">Write down last night’s adventure before it fades into the morning mist. Your personal dream journal, safe and searchable.</div>
+                <div class="info-text"><p>Write down last night’s adventure before it fades into the morning mist. Your personal dream journal, safe and searchable.</p></div>
             </div>
 
-            <div id="Lucid-Lens">
+            <div class="feature" id="Lucid-Lens">
                 <div class="info-box">
                     <img src="" alt="Lucid Lens">
                 </div>
                 
-                <div class="info-text">An AI “dream oracle” that highlights symbols, connects patterns, and gives playful interpretations of what your subconscious might be saying.</div>
+                <div class="info-text"><p>An AI “Dream Oracle” that highlights symbols, connects patterns, and gives playful interpretations of what your subconscious might be saying.</p></div>
             </div>
 
-            <div id="Astral-Replay">
+            <div class="feature" id="Astral-Replay">
                 <div class="info-box">
                     <img src="" alt="Astral Replay">
                 </div>
 
-                <div class="info-text">Step back into your dream world with an interactive playback mode. Navigate your dream journal like a map of constellations</div>
+                <div class="info-text"><p>Step back into your dream world with an interactive playback mode. Navigate your dream journal like a map of constellations</p></div>
             </div>
 
-            <div id="Noctis-Graphs">
+            <div class="feature" id="Noctis-Graphs">
                 <div class="info-box">
                     <img src="" alt="Noctis Graphs">
                 </div>
 
-                <div class="info-text">Visualize your dream world: see recurring themes, moods, and hidden storylines through elegant charts and timelines.</div>
+                <div class="info-text"><p>Visualize your dream world: see recurring themes, moods, and hidden storylines through elegant charts and timelines.</p></div>
             </div>
 
-            <div id="Lunar-Threads"> 
+            <div class="feature" id="Lunar-Threads"> 
                 <div class="info-box">
                     <img src="" alt="Lunar Threads">
                 </div>
-                <div class="info-text">Share your wildest dreams anonymously with the community — or browse others’ surreal stories for inspiration and laughs.  </div>
+                <div class="info-text"><p>Share your wildest dreams anonymously with the community — or browse others’ surreal stories for inspiration and laughs.  </p></div>
             </div>
         </div>
             
@@ -77,22 +83,27 @@
 
     <Section class="Quote">
 
-        <div class="center quote">
-            <p><i>A dream is a theater of shadows, where memory borrows costumes from imagination. On its stage, the ordinary becomes strange, and the strange feels achingly familiar.</i></p> 
-        </div>
+        <div>        
+            <div class="center quote">
+                <p><i>A dream is a theater of shadows, where memory borrows costumes from imagination. On its stage, the ordinary becomes strange, and the strange feels achingly familiar.</i></p> 
+            </div>
 
-        <p class="author-quote"><b>- Nox Weaver</b></p>
+            <p id="author-quote"><b>- Nox Weaver</b></p>
+    </div>
 
     </Section>
 
-    <div class="dream">
-        <div>
-            <h2>Every dream is a universe waiting to be remembered.</h2>
-            <p>Join today and start mapping your own.</p>
-            <button><b>Join</b></button>
+    <section class="dream">
+        <div class="dreambox"> 
+            <div>
+                <h2>Every dream is a universe waiting to be remembered.</h2>
+                <p>Join today and start mapping your own.</p>
+            </div>
+            <div>
+                <button><b>Join</b></button>
+            </div>
         </div>
-
-    </div>
+    </section>
 
     <div class="footer">
         <p>Website by Jonas P. Genova for the <a href="https://www.theodinproject.com/">Odin Project</a></p>
