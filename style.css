@@ -4,7 +4,7 @@
     font-family: "montserrat";
     color: white;
     /* for debugging */
-    /* border: 1px red solid; */
+    border: 1px red solid;
 }
 
 body {
@@ -114,6 +114,7 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 100px;
     background-color: hsl(249, 28%, 65%)
 }
@@ -127,6 +128,7 @@ button:active {
     color: white;
     text-align: center;
     text-shadow: -3px 3px 5px rgba(0,0,0,0.1);
+
 }
 
 .features{
@@ -136,7 +138,7 @@ button:active {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: baseline;
 }
 
 .feature{
