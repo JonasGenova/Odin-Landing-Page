@@ -25,6 +25,10 @@ a {
     color: white;
 }
 
+a:active {
+    color: #ffeb57;
+ }
+
 button{
     padding: 10px 30px;
     background-color: hsl(257, 78%, 65%);
